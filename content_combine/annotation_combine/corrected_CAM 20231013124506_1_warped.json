@@ -1,0 +1,384 @@
+{
+    "file_name": "corrected_CAM_20231013124506_1_warped",
+    "id": 732,
+    "original_width": 778,
+    "original_height": 720,
+    "objects": [
+        {
+            "x": 268.996282527881,
+            "y": 71.59851301115242,
+            "width": 154.57249070631974,
+            "height": 66.91449814126395,
+            "transcription": "2U12-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 432.9368029739777,
+            "y": 72.26765799256506,
+            "width": 50.85501858736056,
+            "height": 64.23791821561338,
+            "transcription": "1f",
+            "label": "terminal_number"
+        },
+        {
+            "x": 329.88847583643127,
+            "y": 683.8661710037175,
+            "width": 80.29739776951676,
+            "height": 31.449814126393992,
+            "transcription": "실버노원",
+            "label": "others"
+        },
+        {
+            "x": 590.185873605948,
+            "y": 669.814126394052,
+            "width": 40.148698884758346,
+            "height": 32.78810408921932,
+            "transcription": "F17",
+            "label": "others"
+        },
+        {
+            "x": 639.7026022304833,
+            "y": 672.4907063197026,
+            "width": 26.096654275092938,
+            "height": 29.44237918215612,
+            "transcription": "CJ",
+            "label": "company_name"
+        },
+        {
+            "x": 694.5724907063197,
+            "y": 673.8289962825279,
+            "width": 78.95910780669145,
+            "height": 26.765799256505577,
+            "transcription": "LOGISTICS",
+            "label": "company_name"
+        },
+        {
+            "x": 585.5018587360595,
+            "y": 60.89219330855019,
+            "width": 68.25278810408918,
+            "height": 30.111524163568767,
+            "transcription": "From :",
+            "label": "others"
+        },
+        {
+            "x": 590.8550185873606,
+            "y": 91.6728624535316,
+            "width": 175.31598513011156,
+            "height": 55.53903345724906,
+            "transcription": "AliExpress",
+            "label": "others"
+        },
+        {
+            "x": 271.6728624535316,
+            "y": 7.360594795539034,
+            "width": 252.9368029739778,
+            "height": 36.133828996282524,
+            "transcription": "2023-10-09 14:13:53",
+            "label": "others"
+        },
+        {
+            "x": 16.059479553903348,
+            "y": 529.2936802973977,
+            "width": 257.6208178438662,
+            "height": 48.17843866170998,
+            "transcription": "LP00603456065339",
+            "label": "others"
+        },
+        {
+            "x": 343.94052044609674,
+            "y": 575.4646840148699,
+            "width": 18.736059479553866,
+            "height": 20.074349442379184,
+            "transcription": "1",
+            "label": "others"
+        },
+        {
+            "x": 343.27137546468407,
+            "y": 604.2379182156133,
+            "width": 60.22304832713752,
+            "height": 32.788104089219416,
+            "transcription": "0.905",
+            "label": "others"
+        },
+        {
+            "x": 51.52416356877323,
+            "y": 440.29739776951675,
+            "width": 240.89219330855022,
+            "height": 29.44237918215612,
+            "transcription": "주소오류 반송 도착지 코드 : 4A20",
+            "label": "others"
+        },
+        {
+            "x": 8.029739776951674,
+            "y": 471.07806691449815,
+            "width": 295.7620817843866,
+            "height": 30.111524163568774,
+            "transcription": "반송처: 경기 평택시 포승읍 만호리 290-1",
+            "label": "others"
+        },
+        {
+            "x": 9.368029739776953,
+            "y": 501.85873605947955,
+            "width": 286.3940520446097,
+            "height": 30.111524163568774,
+            "transcription": "에이씨티앤코아물류 /TEL :02-2665-2881",
+            "label": "others"
+        },
+        {
+            "x": 6.691449814126394,
+            "y": 10.03717472118959,
+            "width": 204.08921933085506,
+            "height": 40.14869888475836,
+            "transcription": "575106829711",
+            "label": "tracking_number"
+        },
+        {
+            "x": 567.4349442379182,
+            "y": 10.70631970260223,
+            "width": 197.3977695167286,
+            "height": 40.817843866171,
+            "transcription": "575106829711",
+            "label": "tracking_number"
+        },
+        {
+            "x": 52.86245353159854,
+            "y": 695.2416356877322,
+            "width": 205.42750929368026,
+            "height": 22.08178438661709,
+            "transcription": "575106829711",
+            "label": "tracking_number"
+        },
+        {
+            "x": 9.368029739776953,
+            "y": 162.60223048327137,
+            "width": 76.95167286245353,
+            "height": 39.47955390334573,
+            "transcription": "수취인 :",
+            "label": "recipient_key"
+        },
+        {
+            "x": 91.00371747211896,
+            "y": 163.271375464684,
+            "width": 61.561338289962826,
+            "height": 37.47211895910781,
+            "transcription": "윤웅의",
+            "label": "recipient_name"
+        },
+        {
+            "x": 14.721189591078067,
+            "y": 232.1933085501859,
+            "width": 85.65055762081785,
+            "height": 40.817843866170975,
+            "transcription": "전화번호:",
+            "label": "recipient_phone_number_key"
+        },
+        {
+            "x": 100.37174721189592,
+            "y": 230.85501858736063,
+            "width": 173.3085501858736,
+            "height": 38.81040892193305,
+            "transcription": "+82 ** 1032453806",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 327.2118959107807,
+            "y": 155.91078066914497,
+            "width": 103.71747211895912,
+            "height": 36.802973977695146,
+            "transcription": "서울특별시",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 437.62081784386623,
+            "y": 155.91078066914497,
+            "width": 58.88475836431227,
+            "height": 37.47211895910781,
+            "transcription": "노원구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 329.88847583643127,
+            "y": 194.7211895910781,
+            "width": 62.230483271375526,
+            "height": 34.12639405204461,
+            "transcription": "노원로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 331.89591078066917,
+            "y": 268.3271375464684,
+            "width": 61.56133828996284,
+            "height": 37.47211895910783,
+            "transcription": "노원로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 394.7955390334573,
+            "y": 198.06691449814127,
+            "width": 33.45724907063202,
+            "height": 31.449814126394042,
+            "transcription": "331",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 396.13382899628255,
+            "y": 269.6654275092937,
+            "width": 34.126394052044645,
+            "height": 33.457249070631974,
+            "transcription": "331",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 434.2750929368032,
+            "y": 196.05947955390334,
+            "width": 95.68773234200725,
+            "height": 33.45724907063198,
+            "transcription": "목련아파트",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 433.60594795539026,
+            "y": 268.9962825278811,
+            "width": 96.35687732342016,
+            "height": 38.14126394052044,
+            "transcription": "목련아파트",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 529.9628252788104,
+            "y": 198.06691449814127,
+            "width": 55.53903345724913,
+            "height": 32.78810408921937,
+            "transcription": "311동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 533.9776951672862,
+            "y": 271.6728624535316,
+            "width": 54.86988847583639,
+            "height": 33.457249070631974,
+            "transcription": "311동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 585.5018587360595,
+            "y": 196.728624535316,
+            "width": 60.22304832713752,
+            "height": 37.47211895910778,
+            "transcription": "917호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 588.8475836431227,
+            "y": 273.0111524163569,
+            "width": 60.22304832713752,
+            "height": 30.111524163568774,
+            "transcription": "917호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 328.550185873606,
+            "y": 231.52416356877322,
+            "width": 56.87732342007433,
+            "height": 35.4646840148699,
+            "transcription": "Seoul",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 392.7881040892194,
+            "y": 232.8624535315985,
+            "width": 103.71747211895912,
+            "height": 36.802973977695174,
+            "transcription": "Nowon-gu",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 36.13382899628253,
+            "y": 302.4535315985131,
+            "width": 256.95167286245356,
+            "height": 29.44237918215612,
+            "transcription": "주소 오류 시 임의 반송 절대 금지",
+            "label": "others"
+        },
+        {
+            "x": 18.736059479553905,
+            "y": 333.90334572490707,
+            "width": 180.66914498141267,
+            "height": 29.44237918215612,
+            "transcription": "Sub 사무실 문의하세요",
+            "label": "others"
+        },
+        {
+            "x": 16.728624535315987,
+            "y": 371.3754646840149,
+            "width": 182.67657992565057,
+            "height": 57.54646840148696,
+            "transcription": "목련아파트",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 204.08921933085506,
+            "y": 367.360594795539,
+            "width": 105.05576208178432,
+            "height": 58.215613382899676,
+            "transcription": "311동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 317.84386617100375,
+            "y": 367.360594795539,
+            "width": 105.72490706319702,
+            "height": 59.55390334572489,
+            "transcription": "917호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 343.94052044609674,
+            "y": 434.9442379182156,
+            "width": 57.54646840148696,
+            "height": 36.80297397769512,
+            "transcription": "발송인:",
+            "label": "sender_key"
+        },
+        {
+            "x": 402.1561338289963,
+            "y": 434.9442379182156,
+            "width": 283.71747211895905,
+            "height": 40.81784386617108,
+            "transcription": "shantimei shandong China lingangqu",
+            "label": "sender_name"
+        },
+        {
+            "x": 343.94052044609674,
+            "y": 534.6468401486987,
+            "width": 198.73605947955386,
+            "height": 36.802973977695174,
+            "transcription": "Clippers & Trimmers",
+            "label": "product_name"
+        },
+        {
+            "x": 328.550185873606,
+            "y": 651.7472118959107,
+            "width": 89.66542750929365,
+            "height": 30.111524163568774,
+            "transcription": "목련아파트",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 421.5613382899629,
+            "y": 657.1003717472119,
+            "width": 47.50929368029737,
+            "height": 29.44237918215612,
+            "transcription": "311동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 471.74721189591077,
+            "y": 656.4312267657992,
+            "width": 47.509293680297475,
+            "height": 31.449814126393992,
+            "transcription": "917호",
+            "label": "recipient_address_room_number"
+        }
+    ]
+}

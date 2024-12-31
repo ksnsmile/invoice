@@ -1,0 +1,56 @@
+{
+    "file_name": "corrected_CAM_20231101074245_3_warped",
+    "id": 387,
+    "original_width": 617,
+    "original_height": 517,
+    "objects": [
+        {
+            "x": 12.936550491510278,
+            "y": 6.468275245755139,
+            "width": 52.67024128686326,
+            "height": 43.42984807864164,
+            "transcription": "F-",
+            "label": "recipient_key"
+        },
+        {
+            "x": 108.11260053619303,
+            "y": 9.702412868632708,
+            "width": 171.4092940125112,
+            "height": 43.42984807864164,
+            "transcription": "A6-별03",
+            "label": "recipient_address_myeon"
+        },
+        {
+            "x": 290.6103663985702,
+            "y": 56.366398570151915,
+            "width": 85.011617515639,
+            "height": 25.41108132260947,
+            "transcription": "행당(대)",
+            "label": "recipient_address_gun"
+        },
+        {
+            "x": 0.9240393208221627,
+            "y": 52.67024128686327,
+            "width": 77.61930294906166,
+            "height": 32.34137622877569,
+            "transcription": "성동구",
+            "label": "recipient_name"
+        },
+        {
+            "x": 86.39767649687222,
+            "y": 53.594280607685434,
+            "width": 77.61930294906165,
+            "height": 29.569258266309202,
+            "transcription": "행당동",
+            "label": "recipient_key"
+        },
+        {
+            "x": 15.708668453976767,
+            "y": 94.71403038427167,
+            "width": 64.6827524575514,
+            "height": 17.09472743521001,
+            "transcription": "운송장번호",
+            "label": "recipient_address_do"
+        }
+    ]
+}

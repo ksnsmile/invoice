@@ -1,0 +1,144 @@
+{
+    "file_name": "corrected_CAM_20231201082601_5_warped",
+    "id": 915,
+    "original_width": 374,
+    "original_height": 217,
+    "objects": [
+        {
+            "x": 128.89642857142857,
+            "y": 20.035714285714285,
+            "width": 37.066071428571426,
+            "height": 25.378571428571426,
+            "transcription": "F-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 180.3214285714287,
+            "y": 20.36964285714285,
+            "width": 59.43928571428555,
+            "height": 24.710714285714285,
+            "transcription": "A6-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 242.0982142857143,
+            "y": 18.7,
+            "width": 63.112500000000004,
+            "height": 30.387500000000003,
+            "transcription": "별03",
+            "label": "terminal_number"
+        },
+        {
+            "x": 29.719642857142855,
+            "y": 187.3339285714286,
+            "width": 62.11071428571427,
+            "height": 14.692857142857132,
+            "transcription": "행당(대)",
+            "label": "terminal_number"
+        },
+        {
+            "x": 26.04642857142857,
+            "y": 202.02678571428572,
+            "width": 42.40892857142856,
+            "height": 11.353571428571428,
+            "transcription": "별03-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 68.45535714285714,
+            "y": 202.3607142857143,
+            "width": 43.744642857142864,
+            "height": 12.021428571428586,
+            "transcription": "이치석",
+            "label": "others"
+        },
+        {
+            "x": 294.1910714285714,
+            "y": 78.47321428571428,
+            "width": 51.425000000000054,
+            "height": 11.687500000000007,
+            "transcription": "A54223",
+            "label": "others"
+        },
+        {
+            "x": 2.6714285714285713,
+            "y": 58.77142857142857,
+            "width": 10.685714285714285,
+            "height": 32.391071428571415,
+            "transcription": "받는분",
+            "label": "recipient_key"
+        },
+        {
+            "x": 16.3625,
+            "y": 52.426785714285714,
+            "width": 126.55892857142855,
+            "height": 13.357142857142858,
+            "transcription": "홍*민 (홍*민 드림)(님)",
+            "label": "recipient_name"
+        },
+        {
+            "x": 15.026785714285715,
+            "y": 65.78392857142855,
+            "width": 29.385714285714286,
+            "height": 13.023214285714296,
+            "transcription": "서울",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 50.75714285714285,
+            "y": 65.78392857142856,
+            "width": 42.74285714285714,
+            "height": 11.353571428571428,
+            "transcription": "성동구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 101.5142857142857,
+            "y": 66.11785714285713,
+            "width": 44.74642857142856,
+            "height": 11.353571428571435,
+            "transcription": "행당로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 150.9357142857143,
+            "y": 66.78571428571429,
+            "width": 23.041071428571424,
+            "height": 11.687499999999998,
+            "transcription": "79,",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 181.32321428571427,
+            "y": 66.11785714285713,
+            "width": 36.732142857142875,
+            "height": 11.353571428571435,
+            "transcription": "116동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 14.025,
+            "y": 78.80714285714285,
+            "width": 43.410714285714285,
+            "height": 11.019642857142863,
+            "transcription": "904호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 61.776785714285715,
+            "y": 78.47321428571428,
+            "width": 55.76607142857143,
+            "height": 12.355357142857136,
+            "transcription": "(행당동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 117.20892857142857,
+            "y": 78.47321428571428,
+            "width": 123.88750000000002,
+            "height": 12.02142857142857,
+            "transcription": "행당동대림아파트)",
+            "label": "recipient_address_detail"
+        }
+    ]
+}

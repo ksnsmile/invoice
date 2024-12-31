@@ -1,0 +1,120 @@
+{
+    "file_name": "corrected_CAM_20231202072827_4_warped",
+    "id": 392,
+    "original_width": 331,
+    "original_height": 376,
+    "objects": [
+        {
+            "x": 6.048257372654156,
+            "y": 5.040214477211796,
+            "width": 30.241286863270776,
+            "height": 31.249329758713138,
+            "transcription": "F-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 57.1224307417337,
+            "y": 8.064343163538874,
+            "width": 95.09204647006257,
+            "height": 30.241286863270776,
+            "transcription": "A6-별07",
+            "label": "terminal_number"
+        },
+        {
+            "x": 2.0160857908847185,
+            "y": 39.985701519213585,
+            "width": 43.00983020554066,
+            "height": 22.512957998212684,
+            "transcription": "성동구",
+            "label": "others"
+        },
+        {
+            "x": 47.37801608579088,
+            "y": 38.97765862377123,
+            "width": 52.082216264521904,
+            "height": 25.20107238605898,
+            "transcription": "행당1동",
+            "label": "others"
+        },
+        {
+            "x": 157.59070598748883,
+            "y": 45.69794459338695,
+            "width": 48.38605898123322,
+            "height": 16.800714924039315,
+            "transcription": "행당(대)",
+            "label": "terminal_number"
+        },
+        {
+            "x": 18.816800714924035,
+            "y": 129.02949061662198,
+            "width": 20.832886505808762,
+            "height": 14.44861483467381,
+            "transcription": "서울",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 38.97765862377123,
+            "y": 126.00536193029491,
+            "width": 33.265415549597854,
+            "height": 16.800714924039315,
+            "transcription": "성동구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 74.93118856121536,
+            "y": 125.66934763181413,
+            "width": 42.3378016085791,
+            "height": 17.136729222520096,
+            "transcription": "왕십리로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 139.78194816800715,
+            "y": 129.70151921358357,
+            "width": 38.977658623771234,
+            "height": 16.128686327077734,
+            "transcription": "(행당동",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 52.0822162645219,
+            "y": 142.80607685433424,
+            "width": 35.61751563896337,
+            "height": 16.800714924039315,
+            "transcription": "1304호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 18.144772117962468,
+            "y": 142.80607685433424,
+            "width": 30.24128686327078,
+            "height": 18.480786416443262,
+            "transcription": "104동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 84.33958891867739,
+            "y": 350.4629133154602,
+            "width": 39.64968722073279,
+            "height": 23.521000893655053,
+            "transcription": "유승요",
+            "label": "others"
+        },
+        {
+            "x": 0.0,
+            "y": 352.81501340482566,
+            "width": 45.69794459338695,
+            "height": 20.496872207328018,
+            "transcription": "행당(대)",
+            "label": "terminal_number"
+        },
+        {
+            "x": 46.03395889186774,
+            "y": 351.8069705093834,
+            "width": 36.96157283288651,
+            "height": 21.840929401251078,
+            "transcription": "별07-",
+            "label": "terminal_number"
+        }
+    ]
+}

@@ -1,0 +1,448 @@
+{
+    "file_name": "corrected_CAM_20231103081153_4_warped",
+    "id": 905,
+    "original_width": 595,
+    "original_height": 327,
+    "objects": [
+        {
+            "x": 10.625,
+            "y": 15.406249999999998,
+            "width": 27.624999999999996,
+            "height": 18.0625,
+            "transcription": "F-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 57.375000000000014,
+            "y": 13.281250000000004,
+            "width": 40.906249999999986,
+            "height": 20.1875,
+            "transcription": "A6-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 100.40625,
+            "y": 10.625000000000002,
+            "width": 43.56250000000001,
+            "height": 23.90625,
+            "transcription": "별01",
+            "label": "terminal_number"
+        },
+        {
+            "x": 145.56249999999997,
+            "y": 276.78125,
+            "width": 82.87500000000004,
+            "height": 26.031250000000014,
+            "transcription": "행당(대)",
+            "label": "terminal_number"
+        },
+        {
+            "x": 144.5,
+            "y": 302.28125,
+            "width": 34.53124999999999,
+            "height": 12.218750000000032,
+            "transcription": "별01-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 302.8125,
+            "y": 105.71875,
+            "width": 54.18750000000002,
+            "height": 12.218749999999986,
+            "transcription": "1588-2121",
+            "label": "others"
+        },
+        {
+            "x": 180.09374999999994,
+            "y": 304.4062500000001,
+            "width": 32.937500000000014,
+            "height": 9.562499999999925,
+            "transcription": "이형국",
+            "label": "others"
+        },
+        {
+            "x": 1.0625,
+            "y": 37.71875,
+            "width": 63.21875,
+            "height": 23.906249999999996,
+            "transcription": "성동구",
+            "label": "others"
+        },
+        {
+            "x": 85.0,
+            "y": 36.65625,
+            "width": 64.28125000000001,
+            "height": 26.562500000000007,
+            "transcription": "행당동",
+            "label": "others"
+        },
+        {
+            "x": 1.59375,
+            "y": 65.34375,
+            "width": 40.375,
+            "height": 15.937499999999998,
+            "transcription": "주무번호",
+            "label": "others"
+        },
+        {
+            "x": 79.15625,
+            "y": 71.18750000000001,
+            "width": 66.9375,
+            "height": 13.281249999999998,
+            "transcription": "2036158387",
+            "label": "others"
+        },
+        {
+            "x": 79.6875,
+            "y": 247.03125,
+            "width": 49.93749999999999,
+            "height": 16.46874999999999,
+            "transcription": "[45/729]",
+            "label": "others"
+        },
+        {
+            "x": 144.5,
+            "y": 251.28125000000003,
+            "width": 28.156249999999982,
+            "height": 12.218749999999986,
+            "transcription": "(1/1)",
+            "label": "others"
+        },
+        {
+            "x": 202.40625,
+            "y": 248.09375,
+            "width": 43.56249999999994,
+            "height": 14.874999999999995,
+            "transcription": "[총 5 개]",
+            "label": "others"
+        },
+        {
+            "x": 7.4375,
+            "y": 264.5625,
+            "width": 158.84375,
+            "height": 11.687500000000004,
+            "transcription": "이지어드민으로 출력된 송장입니다.",
+            "label": "others"
+        },
+        {
+            "x": 421.28125,
+            "y": 5.312500000000001,
+            "width": 19.125000000000046,
+            "height": 16.46875,
+            "transcription": "신용",
+            "label": "others"
+        },
+        {
+            "x": 460.0625,
+            "y": 5.843750000000001,
+            "width": 12.218750000000012,
+            "height": 15.406250000000002,
+            "transcription": "0",
+            "label": "others"
+        },
+        {
+            "x": 269.87499999999994,
+            "y": 157.25,
+            "width": 23.906250000000018,
+            "height": 15.937499999999984,
+            "transcription": "신용",
+            "label": "others"
+        },
+        {
+            "x": 306.53124999999994,
+            "y": 156.71875,
+            "width": 9.562500000000023,
+            "height": 14.874999999999995,
+            "transcription": "0",
+            "label": "others"
+        },
+        {
+            "x": 261.375,
+            "y": 120.59375,
+            "width": 86.59375,
+            "height": 18.062500000000014,
+            "transcription": "20 년 월 일",
+            "label": "others"
+        },
+        {
+            "x": 267.21875,
+            "y": 300.6875,
+            "width": 41.968750000000014,
+            "height": 14.343750000000012,
+            "transcription": "[총 5 개]",
+            "label": "others"
+        },
+        {
+            "x": 259.78125,
+            "y": 103.06250000000001,
+            "width": 42.49999999999997,
+            "height": 18.593750000000007,
+            "transcription": "롯데택배",
+            "label": "company_name"
+        },
+        {
+            "x": 296.96875,
+            "y": 137.59375,
+            "width": 94.56250000000001,
+            "height": 17.00000000000002,
+            "transcription": "4563-5633-6025",
+            "label": "tracking_number"
+        },
+        {
+            "x": 294.3125,
+            "y": 10.625000000000002,
+            "width": 91.37499999999999,
+            "height": 13.8125,
+            "transcription": "4563-5633-6025",
+            "label": "tracking_number"
+        },
+        {
+            "x": 490.875,
+            "y": 155.65625000000003,
+            "width": 93.49999999999997,
+            "height": 13.812500000000005,
+            "transcription": "4563-5633-6025",
+            "label": "tracking_number"
+        },
+        {
+            "x": 277.31250000000006,
+            "y": 42.50000000000001,
+            "width": 31.874999999999982,
+            "height": 13.812500000000005,
+            "transcription": "김혜연",
+            "label": "recipient_name"
+        },
+        {
+            "x": 273.0625,
+            "y": 182.75,
+            "width": 44.625,
+            "height": 20.187500000000014,
+            "transcription": "김혜연",
+            "label": "recipient_name"
+        },
+        {
+            "x": 274.125,
+            "y": 56.84375,
+            "width": 51.53125000000004,
+            "height": 13.812500000000005,
+            "transcription": "서울특별시",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 275.71875,
+            "y": 23.375000000000004,
+            "width": 80.21874999999999,
+            "height": 20.1875,
+            "transcription": "서울특별시",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 269.34374999999994,
+            "y": 203.46875,
+            "width": 72.24999999999997,
+            "height": 15.406249999999979,
+            "transcription": "서울특별시",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 344.25000000000006,
+            "y": 201.34375,
+            "width": 43.562499999999986,
+            "height": 18.59374999999997,
+            "transcription": "성동구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 326.18750000000006,
+            "y": 58.96875,
+            "width": 28.687499999999947,
+            "height": 11.156250000000007,
+            "transcription": "성동구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 358.0625,
+            "y": 24.96875,
+            "width": 52.59375,
+            "height": 20.1875,
+            "transcription": "성동구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 391.53125,
+            "y": 199.75,
+            "width": 43.562499999999986,
+            "height": 22.312500000000014,
+            "transcription": "행당로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 412.24999999999994,
+            "y": 23.90625,
+            "width": 47.812500000000036,
+            "height": 20.71875,
+            "transcription": "행당로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 356.46875,
+            "y": 58.96875,
+            "width": 29.750000000000043,
+            "height": 12.21875000000001,
+            "transcription": "행당로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 437.21875000000006,
+            "y": 200.8125,
+            "width": 19.656250000000014,
+            "height": 20.18749999999999,
+            "transcription": "82",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 461.125,
+            "y": 24.4375,
+            "width": 24.437500000000025,
+            "height": 19.125,
+            "transcription": "82",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 486.62499999999994,
+            "y": 23.375000000000004,
+            "width": 62.68750000000012,
+            "height": 20.1875,
+            "transcription": "(행당동)",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 459.53125,
+            "y": 200.8125,
+            "width": 55.78125,
+            "height": 21.250000000000004,
+            "transcription": "(행당동)",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 270.9375,
+            "y": 219.40625,
+            "width": 72.24999999999997,
+            "height": 15.937500000000009,
+            "transcription": "행당한진타",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 269.34375000000006,
+            "y": 236.40624999999997,
+            "width": 13.281249999999982,
+            "height": 18.593750000000018,
+            "transcription": "운",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 551.4375,
+            "y": 23.90625,
+            "width": 30.81249999999993,
+            "height": 21.781249999999996,
+            "transcription": "행당",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 285.8125,
+            "y": 235.875,
+            "width": 71.71874999999997,
+            "height": 18.062500000000032,
+            "transcription": "한진아파트",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 360.7187499999999,
+            "y": 236.40624999999997,
+            "width": 39.84375000000003,
+            "height": 15.406250000000025,
+            "transcription": "117-",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 402.15625,
+            "y": 236.40624999999997,
+            "width": 36.124999999999986,
+            "height": 15.406250000000025,
+            "transcription": "1702",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 364.4375,
+            "y": 251.81249999999997,
+            "width": 87.12499999999994,
+            "height": 12.750000000000016,
+            "transcription": "02-3793-****",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 275.1875,
+            "y": 86.59375,
+            "width": 101.99999999999997,
+            "height": 14.34375,
+            "transcription": "(주)그레이스 /",
+            "label": "sender_name"
+        },
+        {
+            "x": 274.65625000000006,
+            "y": 264.03125,
+            "width": 61.09374999999997,
+            "height": 15.406250000000025,
+            "transcription": "(주)그레이스",
+            "label": "sender_name"
+        },
+        {
+            "x": 274.65625000000006,
+            "y": 279.4375,
+            "width": 22.312499999999957,
+            "height": 14.343750000000012,
+            "transcription": "경기",
+            "label": "sender_address_do"
+        },
+        {
+            "x": 298.03125,
+            "y": 279.96875,
+            "width": 30.281250000000007,
+            "height": 14.874999999999948,
+            "transcription": "하남시",
+            "label": "sender_address_si"
+        },
+        {
+            "x": 55.25,
+            "y": 92.4375,
+            "width": 96.15624999999999,
+            "height": 17.000000000000025,
+            "transcription": "설거지 수세미 4개입",
+            "label": "product_name"
+        },
+        {
+            "x": 162.56249999999997,
+            "y": 93.50000000000001,
+            "width": 13.281250000000025,
+            "height": 13.281249999999988,
+            "transcription": "1",
+            "label": "product_name"
+        },
+        {
+            "x": 209.31250000000003,
+            "y": 114.75,
+            "width": 12.218750000000012,
+            "height": 15.937500000000009,
+            "transcription": "2",
+            "label": "product_name"
+        },
+        {
+            "x": 172.65625,
+            "y": 139.1875,
+            "width": 10.09374999999999,
+            "height": 14.343750000000012,
+            "transcription": "2",
+            "label": "product_name"
+        }
+    ]
+}

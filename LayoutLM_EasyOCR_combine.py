@@ -15,6 +15,7 @@ import torchvision
 from torchvision.ops import RoIAlign
 from torchvision.transforms import ToTensor
 from torch.utils.data import Dataset, DataLoader
+import torch.nn.functional as F
 
 from transformers import BertTokenizer
 from transformers.models.layoutlm import LayoutLMModel, LayoutLMConfig
@@ -441,7 +442,7 @@ assert len(words) == len(bounding_boxes) == len(labels)
 #print(len(words))
 
 image_with_bboxes = image.copy()
-draw = ImageDraw.Draw(image_with_bboxes, "RGBA")
+draw = ImageDraw.Draw(image_with_bboxes, "RGBA") #이미지에 그림 그릴 수 있도록 설정하는 객체 생성
 
 for bbox in bounding_boxes:
     draw.rectangle(bbox, outline='red', width=1)
@@ -458,18 +459,21 @@ for bbox in resized_bounding_boxes:
 
 resized_image
 
-
+#딥러닝 모델에 이미지를 입력할 수 있도록 준비 
 image = ToTensor()(resized_image).unsqueeze(0) # batch size of 1 #아직까지 하나
 image.shape
 
 # pretrained=True를 제거하고, weights=ResNet101_Weights.DEFAULT로 수정
 model = torchvision.models.resnet101(weights=ResNet101_Weights.DEFAULT)
-model = torch.nn.Sequential(*(list(model.children())[:0]))
+model = torch.nn.Sequential(*(list(model.children())[:-3])) #resnet101의 특정 층만 선택
 
 
 with torch.no_grad():
     feature_map = model(image)
 
+feature_map = F.adaptive_avg_pool2d(feature_map, output_size=(14, 14))
+
+#이미지의 고수준 특징을 얻어냄
 print(feature_map.size())  # torch.Size([1, 1024, 14, 14])
 
 output_size = (3,3)
@@ -491,6 +495,7 @@ print(feature_maps_bboxes.shape)
 visual_embeddings = torch.flatten(feature_maps_bboxes, 1)
 visual_embeddings.shape
 
+#BERT모델에서 사용하기 위해서 768특징을 맞춤 
 projection = nn.Linear(in_features=visual_embeddings.shape[-1], out_features=768)
 output = projection(visual_embeddings)
 print(output.shape)
@@ -568,6 +573,7 @@ label2idx
 #print(bounding_boxes)
 
 #Now let's define the PyTorch dataset:
+#BERT는 양방향으로 텍스트의 문맥을 학습하여, 특정 단어의 의미를 주변 단어를 통해 파악합니다.
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 train_dataset = krri_invoice(image_file_names=image_files_train, tokenizer=tokenizer, max_length=512, target_size=1024)
 
@@ -595,11 +601,11 @@ test_image #바운딩 + 리사이즈된 컬러 이미지 나와야함(47 => 워�
 train_dataloader = DataLoader(train_dataset, batch_size=4) # 기존 4
 batch = next(iter(train_dataloader))
 
-## 모델 정의
+## 모델 정의 토큰 분류를 하는 모델 설정 
 model = LayoutLMForTokenClassification()
 batch.keys()
 image.shape
-
+###### 여기부터 12/26 모델 입력 구성
 input_ids=batch['input_ids']
 bbox=batch['bbox']
 attention_mask=batch['attention_mask']
@@ -608,10 +614,13 @@ labels=batch['labels']
 resized_images = batch['resized_image'] # shape (N, C, H, W), with H = W = 224
 resized_and_aligned_bounding_boxes = batch['resized_and_aligned_bounding_boxes'] # single torch tensor that also contains the batch index for every bbox at image size 224
 
+
+#예측 수행
 outputs = model(input_ids=input_ids, bbox=bbox, attention_mask=attention_mask, token_type_ids=token_type_ids,
                 labels=labels, resized_images=resized_images, resized_and_aligned_bounding_boxes=resized_and_aligned_bounding_boxes)
 
 outputs.loss
+#예측 결과의 텐서크기 (배치크기, 시퀀스 길이, 클래스 개수)
 outputs.logits.shape
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -624,9 +633,12 @@ test_dataloader = DataLoader(test_dataset, batch_size=1)
 
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
+
+# ocr 부분 
+
 reader = easyocr.Reader(['ko', 'en'], model_storage_directory='C:\\Users\\USER\\EasyOCR\\workspace\\user_network_dir', 
                         user_network_directory='C:\\Users\\USER\\EasyOCR\\workspace\\user_network_dir', 
-                        recog_network='custom')
+                        recog_network='custom') #gpu=True
 
 layoutlm_preds, easyocr_preds = None, []
 layoutlm_out_label_ids, easyocr_out_label_ids = None, []
@@ -692,8 +704,8 @@ def evaluate_and_calculate_f1(model, test_dataloader, device):
                 resized_images=resized_images, resized_and_aligned_bounding_boxes=resized_and_aligned_bounding_boxes
             )
 
-            logits = outputs.logits
-            preds = torch.argmax(logits, dim=-1)
+            logits = outputs.logits # 예측결과
+            preds = torch.argmax(logits, dim=-1) #예측결과를 넣어서 최종 클래스변환
             layoutlm_true_labels.extend(labels.view(-1).cpu().numpy())
             layoutlm_pred_labels.extend(preds.view(-1).cpu().numpy())
 
