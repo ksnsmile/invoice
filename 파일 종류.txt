@@ -1,0 +1,17 @@
+파일 종류
+
+1.corrected_CAM
+
+2.corrected_KakaoTalk
+
+3.coupang
+
+4.daehan
+
+5.epost
+
+6.hanjin
+
+7.lotte
+
+8.rozen
